@@ -1,0 +1,33 @@
+.containerNavbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #b2dfdb;
+    position: sticky;
+	border-bottom-left-radius: 1% 10%;
+	border-bottom-right-radius: 1% 10%;
+	overflow: hidden;
+}
+
+img {
+    padding-left: 10px;
+    align-self: center;
+    height: 9vh;
+}
+
+.NavBar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b2dfdb;
+}
+
+.NavBarList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+    gap: 15vh;
+}

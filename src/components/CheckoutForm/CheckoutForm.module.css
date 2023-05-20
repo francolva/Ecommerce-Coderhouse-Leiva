@@ -1,0 +1,39 @@
+.CheckoutFormContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+}
+
+.CheckoutForm {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.CheckoutFormLabel {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50%;
+    align-self: start;
+}
+
+.CheckoutFormInput {
+    height: 30px;
+}
+
+.CheckoutFormButton {
+    align-self: center;
+    margin: 10px;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: rgb(207, 240, 237);
+    text-decoration: solid;
+}
